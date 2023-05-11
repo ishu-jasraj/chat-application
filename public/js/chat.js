@@ -12,6 +12,7 @@ socket.on('sendMessage',(msg,count)=>{
 //     socket.emit('msgAllClients',clientMsg);
 // })
 
+
 document.querySelector('#msg-form').addEventListener('submit',(e)=>{
     e.preventDefault();
 const msg = e.target.elements.userMsg.value;
